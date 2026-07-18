@@ -1,0 +1,17 @@
+name: example
+description: "Example the animate type writer"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  animate_type_writer:
+    path: "../"
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
