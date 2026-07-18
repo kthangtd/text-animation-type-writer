@@ -8,7 +8,7 @@ class AnimBlinkCursor extends StatefulWidget {
 
   const AnimBlinkCursor({
     super.key,
-    this.offset = const Offset(0, 5),
+    this.offset = const Offset(0, 3),
     this.blinkDurationMs = 400,
     this.isRepeat = true,
     this.child,
@@ -45,7 +45,7 @@ class _AnimBlinkCursorState extends State<AnimBlinkCursor>
           '|',
           style: TextStyle(
             fontWeight: FontWeight.w500,
-            fontSize: 24,
+            fontSize: 20,
             color: Colors.white,
           ),
         );
