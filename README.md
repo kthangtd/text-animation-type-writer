@@ -3,6 +3,10 @@
 The simple package that support animation of type writer.
 Just input the text span, duration and trigger the animation.
 
+## Screenshots
+
+![Alt Text](screenshots/type-writer.gif)
+
 ## Example
 
 ```dart
